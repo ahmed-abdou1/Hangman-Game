@@ -1,0 +1,135 @@
+.game-title {
+    text-align: center;
+    margin-top: 75px;
+  }
+  
+  .hangman-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hangman {
+    width: 200px;
+    height: 300px;
+    position: relative;
+  }
+
+  .gallows {
+    width: 150px;
+    height: 20px;
+    background-color: #654321;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+  }
+
+  .head {
+    width: 65px;
+    height: 65px;
+    border: 15px solid #000;
+    border-radius: 50%;
+    position: relative;
+    top: 27px;
+    left: -42px;
+  }
+
+  .relative-point {
+    width: 10px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+  }
+
+  .body {
+    width: 15px;
+    height: 150px;
+    background-color: #000;
+    position: relative;
+    top: 20px;
+  }
+
+  .left-arm {
+    width: 90px;
+    height: 15px;
+    background-color: #000;
+    position: relative;
+    top: -70px;
+    left: 0px;
+    transform: rotate(35deg);
+  }
+
+  .right-arm {
+    width: 90px;
+    height: 15px;
+    background-color: #000;
+    position: relative;
+    top: -88px;
+    left: -68px;
+    transform: rotate(-35deg);
+  }
+
+  .left-leg {
+    width: 90px;
+    height: 15px;
+    background-color: #000;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    transform: rotate(35deg);
+  }
+
+  .right-leg {
+    width: 90px;
+    height: 15px;
+    background-color: #000;
+    position: relative;
+    top: -21px;
+    left: -68px;
+    transform: rotate(-35deg);
+  }
+
+  .support-structure {
+    position: absolute;
+    top: 45%;
+    left: 57%;
+    transform: translate(-5%, -50%);
+  }
+
+  .beam {
+    width: 215px;
+    height: 15px;
+    background-color: #000;
+    position: relative;
+    top: 165px;
+    left: -195px;
+  }
+
+  .noose {
+    width: 15px;
+    height: 30px;
+    background-color:#000;
+    position: absolute;
+    top: 47%;
+    left: 5px;
+  }
+
+  .support {
+    width: 15px;
+    height: 350px;
+    background-color: #000;
+    position: relative;
+    top: 160px;
+    left: -170px;
+  }
+
+  .base {
+    width: 295px;
+    height: 15px;
+    background-color: #000;
+    position: relative;
+    top: 160px;
+    left: -195px;
+  }
