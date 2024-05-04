@@ -1,4 +1,12 @@
-.game-title {
+/* body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  } */
+  .game-title {
     text-align: center;
     margin-top: 75px;
   }
@@ -133,3 +141,132 @@
     top: 160px;
     left: -195px;
   }
+
+  /* #word-container {
+    text-align: center;
+    position: relative;
+  } */
+
+  #center-word {
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .word {
+    font-size: 24px; /* Adjust font size as needed */
+    display: flex;
+    align-content:space-evenly;
+    letter-spacing: 10px;
+}
+
+.word span {
+    display: inline-block;
+    letter-spacing: 0;
+    visibility: hidden;
+}
+
+.showLetter {
+    visibility: visible !important;
+}
+
+.word u {
+    border-bottom: 2px solid black; /* Style the underline */
+    display: inline-block;
+    width: 10px; /* Adjust the width of the underline */
+    margin-bottom: 0px; /* Adjust the vertical position of the underline */
+    position: relative;
+    right: 15px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+#button-center {
+    /* border: black 1px solid; */
+    width: 490px;
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.button-design {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#point-1 {
+    visibility: hidden;
+}
+
+#point-2 {
+    visibility: hidden;
+}
+
+#point-3 {
+    visibility: hidden;
+}
+
+#point-4 {
+    visibility: hidden;
+}
+
+#point-5 {
+    visibility: hidden;
+}
+
+#point-6 {
+    visibility: hidden;
+}
+
+#guess-container {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.submit-button-design {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#input-guess-box {
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin: 0 auto;
+    display: block;
+}
+
+#submit-btn {
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+}

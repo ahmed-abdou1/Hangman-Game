@@ -10,12 +10,12 @@
     <h1 class="game-title">Hang Man!</h1>
     <div class="hangman-container">
         <div class="relative-point">
-            <div class="head"></div>
-            <div class="body"></div>
-            <div class="left-arm"></div>
-            <div class="right-arm"></div>
-            <div class="left-leg"></div>
-            <div class="right-leg"></div>
+            <div id="point-1" class="head"></div>
+            <div id="point-2" class="body"></div>
+            <div id="point-3" class="left-arm"></div>
+            <div id="point-4" class="right-arm"></div>
+            <div id="point-5" class="left-leg"></div>
+            <div id="point-6" class="right-leg"></div>
             <div class="support-structure">
                 <div class="beam"></div>
                 <div class="noose"></div>
@@ -23,6 +23,22 @@
                 <div class="base"></div>
             </div>
         </div>
+    </div>
+    <div id="center-word">
+        <div class="word">
+
+        </div>
+    </div>
+
+    <div id="button-container">
+        <div id="button-center">
+            
+        </div>
+    </div>
+    <div id="guess-container">
+        <h1>Guess The Word?</h1>
+        <input id="input-guess-box" type="text">
+        <button type="submit" class="submit-button-design" id="submit-btn">Submit Guess</button>
     </div>
 </body>
 <script src="index.js"></script>
